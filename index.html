@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samvidhan AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.128.0/build/three.module.js"
+  }
+}
+</script>
+
+</head>
+<body>
+
+<canvas id="chakra"></canvas>
+
+<div class="hero">
+  <h1>🇮🇳 Samvidhan AI</h1>
+  <p>Powered by Madhuri AI Digital Sakhi</p>
+</div>
+
+<div class="chat">
+  <input id="input" placeholder="अनुच्छेद पूछें...">
+  <button onclick="askAI()">Send</button>
+</div>
+
+<div id="output"></div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
